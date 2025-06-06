@@ -63,6 +63,6 @@
     y="305"
     image="forest-hero-idle.png"
     width="150"
-    on_click="set(hero_atual, '') />
+    on_click="set(hero_atual, 'forest-jumpattack-10.png') />
 
 </page>
