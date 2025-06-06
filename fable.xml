@@ -1,10 +1,12 @@
 <fable>
-  <config font-family="Schoolbell" />
+  <config font-family="Exo 2" />
 
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
   <start />
+  <start2/>
+  <start3 />
   <middle />
   <ending />
 </fable>
