@@ -24,7 +24,8 @@
     x="center"
     y="450"
     text="Resultados"
-    color="white" font-size="24"
+    color="white"
+    font-size="24"
   />
 
 
@@ -33,7 +34,9 @@
     x="center"
     y="500"
     text="❤️ Vida: $vida | 🛡️ Coragem: $coragem | 🧠 Sanidade: $sanidade"
-    color="white" font-size="24"
+    width="700"
+    color="white"
+    font-size="24"
   />
 
 
