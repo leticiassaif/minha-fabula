@@ -1,3 +1,6 @@
+<property name="posX" default="100" />
+  <property name="posY" default="100" />
+
 <page id="introduction2" bg_image="forest-bg.png">
 
   <agent
@@ -72,7 +75,7 @@
     y="$posY"
     image="tech-acid-1.png" 
            draggable="true" 
-    on_drag="set(posX, $posX + $deltaX); set(posY, $posY + $deltaY)" 
+    on_drag="set(posX, $posX + $deltaX); set(posY, $posY + $deltaY)" />
 
     
 </page>
