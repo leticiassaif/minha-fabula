@@ -1,6 +1,3 @@
-<property name="posX" default="100" />
-  <property name="posY" default="100" />
-
 <page id="introduction2" bg_image="forest-bg.png">
 
   <agent
