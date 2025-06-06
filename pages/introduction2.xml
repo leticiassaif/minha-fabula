@@ -3,16 +3,32 @@
   <agent
     id="terra1"
     x="0"
-    y="400"
-    image image="forest-1.png"
-    color="white"
-    font-size="24" />
+    y="468"
+    image="forest-1.png" />
 
   <agent
     id="terra2"
     x="127"
-    y="400"
-    image image="forest-2.png"
+    y="468"
+    image="forest-2.png" />
+
+  <agent
+    id="terra3"
+    x="254"
+    y="468"
+    image="forest-2.png" />
+
+  <agent
+    id="placa"
+    x="160"
+    y="375"
+    image="cemetery-sign.png"/>
+
+  <agent
+    id="placa_texto"
+    x="127"
+    y="468"
+    image="forest-2.png"
     color="white"
     font-size="24" />
 
