@@ -57,30 +57,14 @@
     width="100"
     font-size="11" />
 
-  <!-- <agent
-    id="hero_atual"
-    x="10"
-    y="305"
-    image="forest-hero-idle.png"
-    width="150"
-    on_click="set(hero_atual, 'forest-jumpattack-10.png')" /> -->
-
  <agent
     id="hero_atual"
     x="$posX"
-    y="$posY"
+    y="305"
+   width="150"
     image="forest-hero-idle.png"
            draggable="true" 
-    on_drag="set(posX, $posX + $deltaX); set(posY, $posY + $deltaY)" />
-
-  
-  <!-- <agent
-    id="hero_movimento"
-    x="$posX"
-    y="$posY"
-    image="forest-jumpattack-10.png" 
-           draggable="true" 
-    on_drag="set(posX, $posX + $deltaX); set(posY, $posY + $deltaY)" /> -->
+    on_drag="set(posX, $posX + $deltaX)" />
 
     
 </page>
