@@ -28,8 +28,9 @@
     id="placa_texto"
     x="127"
     y="468"
-    image="forest-2.png"
+    text="ACEITE O PRESENTE DELA"
     color="white"
-    font-size="24" />
+    width="100"
+    font-size="15" />
 
 </page>
