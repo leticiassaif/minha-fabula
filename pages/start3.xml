@@ -18,7 +18,7 @@
     x="335"
     font font-size="25"
     color="white"
-    on_click="goToPage('start2')"
+    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
     animation="pulse"
   />
 </page>
