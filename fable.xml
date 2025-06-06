@@ -7,9 +7,6 @@
   <property name="infeccao" default="0" />
   <property name="visitante" default="Ethan" />
 
-  <property name="posX" default="100" />
-  <property name="posY" default="100" />
-
   <start />
   <start2/>
   <start3 />
