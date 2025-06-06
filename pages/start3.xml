@@ -26,7 +26,7 @@
     id="desistir1"
     text="Desisitir?"
     y="520"
-    x="center"
+    x="638"
     font-size="25"
     color="white"
     on_click="goToPage('ending2'); set(coragem, $coragem - 30)"
