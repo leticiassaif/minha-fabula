@@ -58,10 +58,11 @@
     font-size="11" />
 
   <agent
-    id="hero"
+    id="hero_atual"
     x="10"
     y="305"
     image="forest-hero-idle.png"
-    width="150" />
+    width="150"
+    on_click="set(hero_atual, '') />
 
 </page>
