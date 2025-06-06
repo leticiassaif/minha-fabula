@@ -1,5 +1,5 @@
 <fable>
-  <config font-family="Exo 2" />
+  <config font-family="Poppins" />
 
   <property name="vida" default="100" />
   <property name="coragem" default="30" />
