@@ -29,7 +29,7 @@
     x="638"
     font-size="25"
     color="white"
-    on_click="goToPage('ending2'); set(coragem, $coragem - 30)"
+    on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
     animation="pulse"
   />
 </page>
