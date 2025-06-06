@@ -3,7 +3,8 @@
 
   <property name="vida" default="100" />
   <property name="coragem" default="30" />
-  <property name="pontuacao" default="0" />
+  <property name="sanidade" default="100" />
+  <property name="infeccao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
   <start />
