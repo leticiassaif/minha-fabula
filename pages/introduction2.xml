@@ -60,7 +60,8 @@
   <agent
     id="hero"
     x="10"
-    y="390"
-    image="forest-hero-idle.png" />
+    y="305"
+    image="forest-hero-idle.png"
+    width="150" />
 
 </page>
