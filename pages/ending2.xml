@@ -11,11 +11,12 @@
 
   <agent
     id="descricao_do_final"
-    text="Você escutou o aviso da mensagem e ficou longe. "
+    text="Você escutou o aviso da mensagem e ficou longe. Entretanto você nunca saberá o que realmente aconteceu."
     x="center"
-    y="center"
+    y="140"
     color="white"
-    font-size="50"
+    width="500"
+    font-size="20"
   />
   
   
