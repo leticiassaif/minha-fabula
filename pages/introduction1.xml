@@ -1,3 +1,9 @@
-<page id="introduction1" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página start_middle1" color="white" font-size="24" />
+<page id="introduction1" bg_color="floralwhite">
+    <agent id="borda" x="50" y="50" text="Texto com Borda"
+           color="white" bg_color="$corBorda" font-size="24" 
+           width="auto" height="auto" padding="$larguraBorda" />
+    
+    <!-- Texto centralizado dentro da borda -->
+    <agent id="texto" x="50" y="50" text="Texto com Borda"
+           color="black" font-size="24" />
 </page>
