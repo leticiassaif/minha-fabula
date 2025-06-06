@@ -1,23 +1,54 @@
 <page id="introduction1" bg_color="floralwhite">
+
+  <agent
+    id="transcricao" 
+    text="Transcrição telefônica:"
+    color="black"
+    x="18"
+    y="18"
+    font-size="30"
+  />
   
   <agent
     id="fala1_amigo" 
     text="Amigo: Alô? $visitante? Tudo certo? Você sumiu naquela noite."
     color="black"
-    x="0"
-    y="20"
+    x="-7"
+    y="80"
     font-size="20"
     width="650"
+    animation="slide-right"
   />
 
   <agent
     id="fala1_visitante"
-    text="Não, tô bem. É a Mia. Ela nao tÁ morta, ela tá viva. Ela voltou."
+    text="$visitante: Oi. Não, tô bem. É a Mia. Ela não tá morta, ela tá viva. Ela voltou."
     color="black"
-    x="center"
-    y="540"
-    font-size="40"
-    width = "700"
+    x="0"
+    y="115"
+    font-size="20"
+    width = "750"
+    animation="slide-right"
+  />
+
+  <agent
+    id="fala2_amigo"
+    text="Amigo: Encontraram ela? Como? O que aconteceu?"
+    color="black"
+    x="18"
+    y="150"
+    font-size="20"
+    animation="slide-right"
+  />
+
+  <agent
+    id="fala2_visitante"
+    text="$visitante: Eu não sei como, mas ela tá de volta, tá de volta de algum jeito."
+    color="black"
+    x="18"
+    y="185"
+    font-size="20"
+    animation="slide-right"
   />
   
 </page>
