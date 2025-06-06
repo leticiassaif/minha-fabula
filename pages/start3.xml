@@ -5,7 +5,7 @@
     text="Fique longe."
     color="white"
     x="center"
-    y="500"
+    y="center"
     font-size="40"
     width = "700"
     animation="fade-in"
@@ -14,11 +14,22 @@
   <agent
     id="next_page_text"
     text="Continuar?"
-    y="20"
-    x="335"
-    font font-size="25"
+    y="520"
+    x="30"
+    font-size="25"
     color="white"
     on_click="goToPage('start2'); set(coragem, $coragem + 20)"
+    animation="pulse"
+  />
+
+    <agent
+    id="desistir1"
+    text="Desisitir?"
+    y="520"
+    x="center"
+    font-size="25"
+    color="white"
+    on_click="goToPage('ending2'); set(coragem, $coragem - 30)"
     animation="pulse"
   />
 </page>
