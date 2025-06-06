@@ -27,7 +27,12 @@
     color="white" font-size="24"
   />
 
+  <agent
+    id="coragem"
+    x="100"
+    y="50"
+    text="Coragem: $coragem"
+    color="white" font-size="24"
+  />
 
-
-  
 </page>
