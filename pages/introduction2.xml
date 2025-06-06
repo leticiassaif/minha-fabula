@@ -65,4 +65,14 @@
     width="150"
     on_click="set(hero_atual, 'forest-jumpattack-10.png')" />
 
+  
+  <agent
+    id="hero_movimento"
+    x="$posX"
+    y="$posY"
+    image="tech-acid-1.png" 
+           draggable="true" 
+    on_drag="set(posX, $posX + $deltaX); set(posY, $posY + $deltaY)" 
+
+    
 </page>
