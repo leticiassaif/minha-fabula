@@ -20,19 +20,21 @@
   />
 
   <agent
-    id="vida"
-    x="100"
-    y="50"
-    text="Vida: $vida"
+    id="resultado_texto"
+    x="center"
+    y="500"
+    text="Re"
     color="white" font-size="24"
   />
 
+
   <agent
-    id="coragem"
-    x="100"
-    y="50"
-    text="Coragem: $coragem"
+    id="resultado_vida_coragem"
+    x="center"
+    y="500"
+    text="Vida: $vida | Coragem: $coragem"
     color="white" font-size="24"
   />
+
 
 </page>
