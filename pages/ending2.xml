@@ -1,4 +1,4 @@
-<page id="ending2" bg_color="royalblue">
+<page id="ending2" bg_color="darkslategrey">
   
   <agent
     id="tipo_de_final"
@@ -13,7 +13,7 @@
     id="descricao_do_final"
     text="Você escutou o aviso da mensagem e ficou longe. Entretanto você nunca saberá o que realmente aconteceu."
     x="center"
-    y="140"
+    y="125"
     color="white"
     width="500"
     font-size="20"
@@ -22,8 +22,8 @@
   <agent
     id="resultado_texto"
     x="center"
-    y="500"
-    text="Re"
+    y="450"
+    text="Resultados"
     color="white" font-size="24"
   />
 
@@ -32,7 +32,7 @@
     id="resultado_vida_coragem"
     x="center"
     y="500"
-    text="Vida: $vida | Coragem: $coragem"
+    text="❤️ Vida: $vida | 🛡️ Coragem: $coragem"
     color="white" font-size="24"
   />
 
