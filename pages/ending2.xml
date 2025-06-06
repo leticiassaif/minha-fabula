@@ -18,6 +18,16 @@
     width="500"
     font-size="20"
   />
-  
+
+  <agent
+    id="vida"
+    x="100"
+    y="50"
+    text="Vida: $vida"
+    color="white" font-size="24"
+  />
+
+
+
   
 </page>
