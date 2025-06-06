@@ -1,3 +1,9 @@
-<page id="ending2" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página ending2" color="white" font-size="24" />
+<page id="ending2" bg_color="royalblue">
+  <agent
+    id="tipo_de_final"
+    x="center"
+    y="center"
+    text="Final"
+    color="white"
+    font-size="24" />
 </page>
