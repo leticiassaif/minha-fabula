@@ -32,7 +32,7 @@
     id="resultado_vida_coragem"
     x="center"
     y="500"
-    text="❤️ Vida: $vida | 🛡️ Coragem: $coragem"
+    text="❤️ Vida: $vida | 🛡️ Coragem: $coragem | 🧠 Sanidade: $sanidade"
     color="white" font-size="24"
   />
 
