@@ -2,7 +2,7 @@
   <config font-family="Exo 2" />
 
   <property name="vida" default="100" />
-  <property name="coragem" default="70" />
+  <property name="coragem" default="30" />
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
 
