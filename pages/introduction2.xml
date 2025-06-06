@@ -19,14 +19,38 @@
     image="forest-2.png" />
 
   <agent
+    id="terra4"
+    x="381"
+    y="470"
+    image="forest-2.png" />
+
+  <agent
+    id="terra5"
+    x="508"
+    y="470"
+    image="forest-2.png" />
+
+  <agent
+    id="terra6"
+    x="635"
+    y="470"
+    image="forest-2.png" />
+
+  <agent
+    id="terra7"
+    x="670"
+    y="470"
+    image="forest-3.png" />
+  
+  <agent
     id="placa"
-    x="160"
+    x="200"
     y="375"
     image="cemetery-sign.png"/>
 
   <agent
     id="placa_texto"
-    x="158"
+    x="196"
     y="390"
     text="ACEITE O PRESENTE DELA"
     color="black"
