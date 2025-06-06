@@ -1,10 +1,18 @@
 <page id="introduction2" bg_image="forest-bg.png">
 
   <agent
-    id="titulo"
-    x="center"
-    y="center"
+    id="terra1"
+    x="0"
+    y="400"
     image image="forest-1.png"
+    color="white"
+    font-size="24" />
+
+  <agent
+    id="terra2"
+    x="127"
+    y="400"
+    image image="forest-2.png"
     color="white"
     font-size="24" />
 
