@@ -1,9 +1,22 @@
 <page id="ending2" bg_color="royalblue">
+  
   <agent
     id="tipo_de_final"
+    text="Final Ouvinte"
+    x="center"
+    y="40"
+    color="white"
+    font-size="50"
+  />
+
+  <agent
+    id="descricao_do_final"
+    text="Você escutou o aviso da mensagem e ficou longe. "
     x="center"
     y="center"
-    text="Final"
     color="white"
-    font-size="24" />
+    font-size="50"
+  />
+  
+  
 </page>
