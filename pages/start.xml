@@ -1,7 +1,7 @@
 <page id="start" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
 
   <agent
-    id="fala"
+    id="fala_start"
     text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
     color="white"
     x="center"
