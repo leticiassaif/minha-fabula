@@ -1,7 +1,7 @@
 <page id="start3" bg_color="black">
   
   <agent
-    id="fala"
+    id="fala_start3"
     text="Fique longe."
     color="white"
     x="center"
