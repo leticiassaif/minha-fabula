@@ -1,19 +1,23 @@
-<page id="start" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="start" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
+
   <agent
     id="teste"
-    text="Hello World"
+    text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
     color="white"
     x="center"
-    y="center"
-    font-size="70"
+    y="540"
+    font-size="20"
+    width = "700"
+    animation="fade-in"
   />
 
   <agent
     id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('middle')"
+    text="Continuar?"
+    y="40"
+    x="10"
+    color="black"
+    on_click="goToPage('start2')"
+    animation="pulse"
   />
 </page>
