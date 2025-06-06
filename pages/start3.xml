@@ -1,3 +1,27 @@
 <page id="start3" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página start3" color="white" font-size="24" />
+  
+  <agent
+    id="teste"
+    text="Fique longe."
+    color="white"
+    x="center"
+    y="500"
+    font-size="40"
+    width = "700"
+    animation="fade-in"
+  />
+
+  <agent
+    id="next_page_text"
+    text="Continuar?"
+    y="20"
+    x="335"
+    font font-size="25"
+    color="white"
+    on_click="goToPage('start2')"
+    animation="pulse"
+  />
+</page>
+
+  
 </page>
