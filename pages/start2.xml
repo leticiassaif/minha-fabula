@@ -1,7 +1,7 @@
 <page id="start2" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
 
   <agent
-    id="fala"
+    id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
     color="white"
     x="center"
