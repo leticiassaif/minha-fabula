@@ -1,4 +1,4 @@
-<page id="start2" bg_image="whatsapp_image_2025_06_10_at_21_44_18.jpeg">
+<page id="start2" bg_image="bg_floresta2.png">
 
   <fab-if when="$narrative_start2=0">
   <agent
