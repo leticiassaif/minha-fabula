@@ -3,6 +3,7 @@
   <agent
     id="mensagem1"
     text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
+    border-color="white"
     color="black"
     x="50"
     y="50"
