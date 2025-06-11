@@ -3,7 +3,7 @@
   <fab-if when="$narrative_start2=0">
   <agent
     id="mensagem1"
-    text="A mensagem que eu recebi... Aquela era Mia, minha esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E eu tenho que encontrá-la..."
+    text="A mensagem que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
     color="white"
     x="50"
     y="250"
@@ -19,7 +19,7 @@
     x="300"
     font-size="15"
     color="white"
-    on_click="goToPage('start3')"
+    on_click="set($narrative_start2 + 1)"
     animation="hover-grow"
   />
   </fab-if>
