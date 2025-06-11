@@ -1,8 +1,8 @@
 <page id="start2" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
 
   <agent
-    id="fala_start2"
-    text="Tudo o que eu posso dizer é, se você receber isso…"
+    id="mensagem1"
+    text="A mensagem que eu recebi... Aquela era Mia, minha esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E eu tenho que encontrá-la."
     color="white"
     x="center"
     y="540"
