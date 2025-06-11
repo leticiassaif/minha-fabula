@@ -1,54 +1,36 @@
-<page id="introduction1" bg_color="floralwhite">
+<page id="choice1" bg_image="bg_floresta2.jpeg">
 
   <agent
-    id="transcricao" 
-    text="Transcrição telefônica:"
-    color="black"
-    x="18"
-    y="18"
-    font-size="30"
-  />
-  
-  <agent
-    id="fala1_amigo" 
-    text="Amigo: Alô? $visitante? Tudo certo? Você sumiu naquela noite."
-    color="black"
-    x="-7"
-    y="80"
-    font-size="20"
-    width="650"
-    animation="slide-right"
+    id="next_page_text"
+    text="Começar a busca."
+    y="440"
+    x="50"
+    font-size="25"
+    color="white"
+    on_click="goToPage('start3'); set(coragem, $coragem + 20)"
+    animation="hover-grow"
   />
 
-  <agent
-    id="fala1_visitante"
-    text="$visitante: Oi. Não, tô bem. É a Mia. Ela não tá morta, ela tá viva. Ela voltou."
-    color="black"
-    x="0"
-    y="115"
-    font-size="20"
-    width = "750"
-    animation="slide-right"
-  />
+    <agent
+    id="desistir1"
+    text="Ficar longe."
+    y="450"
+    x="550"
+    font-size="25"
+    color="white"
+    width="200"
+    on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
+    animation="hover-grow"/>
 
-  <agent
-    id="fala2_amigo"
-    text="Amigo: Encontraram ela? Como? O que aconteceu?"
-    color="black"
-    x="18"
-    y="150"
-    font-size="20"
-    animation="slide-right"
-  />
-
-  <agent
-    id="fala2_visitante"
-    text="$visitante: Eu não sei como, mas ela tá de volta, tá de volta de algum jeito."
-    color="black"
-    x="18"
-    y="185"
-    font-size="20"
-    animation="slide-right"
+      <agent
+    id="escolha"
+    text="Escolha."
+    y="362"
+    x="98"
+    font-size="23"
+    color="white"
+    on_click="set(narrative, $narrative + 1)"
+    animation="hover-glow"
   />
   
 </page>
