@@ -45,7 +45,7 @@
     x="center"
     y="center"
     font-size="40"
-    animation="fade-in; pulse"
+    animation="fade-in"
   />
 
   <agent
