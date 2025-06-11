@@ -1,4 +1,4 @@
-<page id="start" bg_image="tech-bgtile-2.png" >
+<page id="start" bg_image="forest-jumpattack-10.png" >
 
   <!-- <agent
     id="fala_start"
@@ -24,7 +24,7 @@
   <fab-if when="$fala=0">
       <agent
       id="fala_start"
-      text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
+      text="$visitante… você tinha razão. Eu menti para você. Não deveria, mas -"
       color="white"
       x="center"
       y="540"
@@ -62,24 +62,24 @@
 
   <agent
     id="next_page_text"
-    text="Continuar?"
+    text="Começar a busca."
     y="520"
     x="30"
     font-size="25"
     color="white"
-    on_click="goToPage('introduction1'); set(coragem, $coragem + 20)"
-    animation="pulse"
+    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
+    animation="hover-grow"
   />
 
     <agent
     id="desistir1"
-    text="Desisitir?"
+    text="Ficar longe."
     y="520"
     x="638"
     font-size="25"
     color="white"
     on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
-    animation="pulse"
+    animation="hover-grow"
   />
 </page>
   </fab-if>
