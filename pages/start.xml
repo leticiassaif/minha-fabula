@@ -1,13 +1,24 @@
-<page id="start" bg_image="forest-bg.png" >
+<page id="start" bg_image="bg_floresta1.jpeg" >
 
   <agent
     id="narrativa"
-    text="Continuar?"
-    y="40"
-    x="10"
-    color="black"
+    text="continuar?"
+    y="505"
+    x="633"
+    color="white"
     on_click="set(narrative, $narrative + 1)"
-    animation="pulse"
+    animation="hover-grow"
+  />
+
+  <agent
+    id="nome1"
+    text="???"
+    y="362"
+    x="98"
+    font-size="23"
+    color="white"
+    on_click="set(narrative, $narrative + 1)"
+    animation="hover-glowow"
   />
 
   <fab-if when="$narrative=0">
@@ -16,10 +27,10 @@
       text="$visitante… você tinha razão. Eu menti para você. Não deveria, mas -"
       color="white"
       x="center"
-      y="540"
+      y="50"
       font-size="20"
       width = "700"
-      animation="typewriter"
+      animation="fade-in"
       />
   </fab-if>
 
