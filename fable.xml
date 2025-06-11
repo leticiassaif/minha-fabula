@@ -12,7 +12,7 @@
   <property name="deltaX" default="0" />
   <property name="deltaY" default="0" />
 
-  <property name="narrative" default="0" />
+  <property name="narrative_start" default="0" />
 
   <start />
   <choice1 />
