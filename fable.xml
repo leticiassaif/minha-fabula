@@ -12,6 +12,8 @@
   <property name="deltaX" default="0" />
   <property name="deltaY" default="0" />
 
+  <property name="fala" default="0" />
+
   <start />
   <start2/>
   <start3 />
