@@ -28,7 +28,6 @@
       color="white"
       x="70"
       y="445"
-      font-size="15"
       width = "700"
       animation="typewriter"
       />
@@ -40,9 +39,8 @@
     id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
     color="white"
-    x="center"
-    y="540"
-    font-size="20"
+    x="70"
+    y="445"
     width = "700"
     animation="typewriter"
   />
@@ -54,7 +52,7 @@
     text="Fique longe."
     color="white"
     x="center"
-    y="center"
+    y="435"
     font-size="40"
     animation="fade-in"
   />
@@ -62,7 +60,7 @@
   <agent
     id="next_page_text"
     text="Começar a busca."
-    y="450"
+    y="440"
     x="50"
     font-size="25"
     color="white"
