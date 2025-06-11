@@ -1,10 +1,10 @@
-<page id="choice1" bg_image="bg_floresta2.jpeg">
+<page id="choice1" bg_color="black">
 
   <agent
     id="next_page_text"
     text="Começar a busca."
-    y="440"
-    x="50"
+    y="330"
+    x="80"
     font-size="25"
     color="white"
     on_click="goToPage('start3'); set(coragem, $coragem + 20)"
@@ -14,8 +14,8 @@
     <agent
     id="desistir1"
     text="Ficar longe."
-    y="450"
-    x="550"
+    y="330"
+    x="530"
     font-size="25"
     color="white"
     width="200"
@@ -24,10 +24,10 @@
 
       <agent
     id="escolha"
-    text="Escolha."
-    y="362"
-    x="98"
-    font-size="23"
+    text="Faça uma escolha."
+    y="220"
+    x="center"
+    font-size="30"
     color="white"
     on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
