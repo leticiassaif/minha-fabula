@@ -4,11 +4,11 @@
     id="mensagem1"
     text="A mensagem que eu recebi... Aquela era Mia, minha esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E eu tenho que encontrá-la..."
     color="white"
-    x="center"
-    y="center"
+    x="50"
+    y="250"
     font-size="20"
     width = "700"
-    animation="fade-in"
+    animation="fade-in-down"
   />
 
   <agent
