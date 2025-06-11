@@ -1,6 +1,6 @@
-<page id="start" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
+<page id="start" bg_image="tech-bgtile-2.png" >
 
-  <agent
+  <!-- <agent
     id="fala_start"
     text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
     color="white"
@@ -8,11 +8,11 @@
     y="540"
     font-size="20"
     width = "700"
-    animation="fade-in"
-  />
+    animation="typewriter"
+  /> -->
 
   <agent
-    id="next_page_text"
+    id="narrativa"
     text="Continuar?"
     y="40"
     x="10"
@@ -20,4 +20,31 @@
     on_click="goToPage('start2')"
     animation="pulse"
   />
+
+<fab-if when="$fala=0"
+    <agent
+    id="fala_start"
+    text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
+    color="white"
+    x="center"
+    y="540"
+    font-size="20"
+    width = "700"
+    animation="typewriter"
+  />
+</fab-if>
+
+
+<fab-if when="$fala=1">
+    <agent
+    id="fala_start2"
+    text="Tudo o que eu posso dizer é, se você receber isso…"
+    color="white"
+    x="center"
+    y="540"
+    font-size="20"
+    width = "700"
+    animation="typewriter"
+  />
+</fab-if>
 </page>
