@@ -96,7 +96,7 @@
     y="505"
     x="633"
     color="white"
-    on_click="goToPage('choice1')"
+    on_click="goToPage('choice1'); set($narrative - 2)"
     animation="hover-grow"
   />
     
