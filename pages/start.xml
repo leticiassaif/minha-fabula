@@ -17,11 +17,11 @@
     y="40"
     x="10"
     color="black"
-    on_click="set(fala, $fala + 1)"
+    on_click="set(narrative, $narrative + 1)"
     animation="pulse"
   />
 
-  <fab-if when="$fala=0">
+  <fab-if when="$narrative=0">
       <agent
       id="fala_start"
       text="$visitante… você tinha razão. Eu menti para você. Não deveria, mas -"
@@ -35,7 +35,7 @@
   </fab-if>
 
 
-  <fab-if when="$fala=1">
+  <fab-if when="$narrative=1">
     <agent
     id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
@@ -48,7 +48,7 @@
   />
   </fab-if>
 
-  <fab-if when="$fala=2">
+  <fab-if when="$narrative=2">
       <agent
     id="fala_start3"
     text="Fique longe."
