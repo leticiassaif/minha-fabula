@@ -25,12 +25,12 @@
       <agent
     id="escolha"
     text="Faça uma escolha."
-    y="220"
-    x="center"
+    y="230"
+    x="250"
     font-size="30"
     color="white"
     on_click="set(narrative, $narrative + 1)"
-    animation="hover-glow"
+    animation="fade-in-down"
   />
   
 </page>
