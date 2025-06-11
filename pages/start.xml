@@ -17,25 +17,25 @@
     y="40"
     x="10"
     color="black"
-    on_click="goToPage('start2')"
+    on_click="set(fala, $fala + 1)"
     animation="pulse"
   />
 
-<fab-if when="$fala=0"
-    <agent
-    id="fala_start"
-    text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
-    color="white"
-    x="center"
-    y="540"
-    font-size="20"
-    width = "700"
-    animation="typewriter"
-  />
-</fab-if>
+  <fab-if when="$fala=0">
+      <agent
+      id="fala_start"
+      text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
+      color="white"
+      x="center"
+      y="540"
+      font-size="20"
+      width = "700"
+      animation="typewriter"
+      />
+  </fab-if>
 
 
-<fab-if when="$fala=1">
+  <fab-if when="$fala=1">
     <agent
     id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
@@ -46,5 +46,42 @@
     width = "700"
     animation="typewriter"
   />
-</fab-if>
+  </fab-if>
+
+  <fab-if when="$fala=2">
+      <agent
+    id="fala_start3"
+    text="Fique longe."
+    color="white"
+    x="center"
+    y="center"
+    font-size="40"
+    width = "700"
+    animation="typewriter"
+  />
+
+  <agent
+    id="next_page_text"
+    text="Continuar?"
+    y="520"
+    x="30"
+    font-size="25"
+    color="white"
+    on_click="goToPage('introduction1'); set(coragem, $coragem + 20)"
+    animation="pulse"
+  />
+
+    <agent
+    id="desistir1"
+    text="Desisitir?"
+    y="520"
+    x="638"
+    font-size="25"
+    color="white"
+    on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
+    animation="pulse"
+  />
+</page>
+  </fab-if>
+
 </page>
