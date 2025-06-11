@@ -69,7 +69,7 @@
     width="200"
     on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
     animation="hover-grow"
-  />
+   />
   </fab-if>
 
 </page>
