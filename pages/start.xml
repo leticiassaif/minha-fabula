@@ -1,15 +1,5 @@
 <page id="start" bg_image="bg_floresta1.jpeg" >
 
-  <agent
-    id="narrativa"
-    text="continuar?"
-    y="505"
-    x="633"
-    color="white"
-    on_click="set(narrative, $narrative + 1)"
-    animation="hover-grow"
-  />
-
   <fab-if when="$narrative=0">
       <agent
       id="fala_start"
@@ -31,6 +21,17 @@
     on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
   />
+
+      <agent
+    id="botao1"
+    text="continuar?"
+    y="505"
+    x="633"
+    color="white"
+    on_click="set(narrative, $narrative + 1)"
+    animation="hover-grow"
+  />
+    
   </fab-if>
 
 
@@ -55,6 +56,17 @@
     on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
   />
+
+      <agent
+    id="botao2"
+    text="continuar?"
+    y="505"
+    x="633"
+    color="white"
+    on_click="set(narrative, $narrative + 1)"
+    animation="hover-grow"
+  />
+    
   </fab-if>
 
   <fab-if when="$narrative=2">
@@ -78,42 +90,14 @@
     on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
   />
-    
-  </fab-if>
-
-  <fab-if when="$narrative=3">
-    
-  <agent
-    id="next_page_text"
-    text="Começar a busca."
-    y="440"
-    x="50"
-    font-size="25"
-    color="white"
-    on_click="goToPage('start3'); set(coragem, $coragem + 20)"
-    animation="hover-grow"
-  />
-
     <agent
-    id="desistir1"
-    text="Ficar longe."
-    y="450"
-    x="550"
-    font-size="25"
+    id="botao3"
+    text="continuar?"
+    y="505"
+    x="633"
     color="white"
-    width="200"
-    on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
-    animation="hover-grow"/>
-
-      <agent
-    id="escolha"
-    text="Escolha."
-    y="362"
-    x="98"
-    font-size="23"
-    color="white"
-    on_click="set(narrative, $narrative + 1)"
-    animation="hover-glow"
+    on_click="goToPage('choice1')"
+    animation="hover-grow"
   />
     
   </fab-if>
