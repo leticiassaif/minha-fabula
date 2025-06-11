@@ -7,7 +7,7 @@
     x="80"
     font-size="25"
     color="white"
-    on_click="goToPage('start2'); set(coragem, $coragem + 20); set($narrative - 2)"
+    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
     animation="hover-grow"
   />
 
