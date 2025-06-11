@@ -1,20 +1,9 @@
 <page id="start2" bg_image="bg_baker_house.jpeg">
 
-  <agent
-    id="mensagem1"
-    text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
-    color="white"
-    x="51"
-    y="50"
-    font-size="20"
-    width = "700"
-    animation="fade-in-down"
-   />
-
     <agent
     id="mensagem2"
     text="Você segue as instruções do email chega em Dulvey, Louisiana, na Fazenda Baker. Ao caminhar pela floresta, você avista uma casa, porém o portão está trancado. À sua esquerda, você olha uma van abandonada com uma proposta de projeto chamada de 'Sewer Gators' e uma placa dizendo 'ACEITE O PRESENTE DELA'. Indo mais adentro da floresta, você acha a carteira de motorista da Mia e uma casa abandonada."
-    color="black"
+    color="#8da56a"
     x="50"
     y="150"
     font-size="20"
@@ -49,7 +38,7 @@
     <agent
     id="mensagem1_borda1"
     text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
-    color="white"
+    color="black"
     x="49"
     y="50"
     font-size="20"
@@ -60,7 +49,7 @@
       <agent
     id="mensagem1_borda2"
     text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
-    color="white"
+    color="black"
     x="50"
     y="51"
     font-size="20"
@@ -71,7 +60,7 @@
       <agent
     id="mensagem1_borda3"
     text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
-    color="white"
+    color="black"
     x="50"
     y="49"
     font-size="20"
@@ -89,6 +78,16 @@
     width = "700"
     animation="fade-in-down"
    />
-
+  
+   <agent
+    id="mensagem1"
+    text="O email que você recebeu... Aquela era Mia, sua esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E você sabe que tem que encontrá-la..."
+    color="#8da56a"
+    x="51"
+    y="50"
+    font-size="20"
+    width = "700"
+    animation="fade-in-down"
+   />
 
 </page>
