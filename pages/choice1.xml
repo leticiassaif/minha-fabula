@@ -7,7 +7,7 @@
     x="80"
     font-size="25"
     color="white"
-    on_click="goToPage('start3'); set(coragem, $coragem + 20)"
+    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
     animation="hover-grow"
   />
 
@@ -29,7 +29,6 @@
     x="250"
     font-size="30"
     color="white"
-    on_click="set(narrative, $narrative + 1)"
     animation="fade-in-down"
   />
   
