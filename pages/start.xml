@@ -25,7 +25,7 @@
 
 
   <fab-if when="$narrative=1">
-    <agent
+      <agent
     id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
     color="white"
@@ -55,7 +55,7 @@
     x="50"
     font-size="25"
     color="white"
-    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
+    on_click="goToPage('start3'); set(coragem, $coragem + 20)"
     animation="hover-grow"
   />
 
