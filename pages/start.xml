@@ -1,6 +1,6 @@
 <page id="start" bg_image="bg_floresta1.jpeg" >
 
-  <fab-if when="$narrative=0">
+  <fab-if when="$narrative_start=0">
       <agent
       id="fala_start"
       text="$visitante… você tinha razão. Eu menti para você. Não deveria, mas -"
@@ -27,14 +27,14 @@
     y="505"
     x="633"
     color="white"
-    on_click="set(narrative, $narrative + 1)"        
+    on_click="set(narrative_start, $narrative_start + 1)"        
     animation="hover-grow"
   />
     
   </fab-if>
 
 
-  <fab-if when="$narrative=1">
+  <fab-if when="$narrative_start=1">
       <agent
     id="fala_start2"
     text="Tudo o que eu posso dizer é, se você receber isso…"
@@ -61,13 +61,13 @@
     y="505"
     x="633"
     color="white"
-    on_click="set(narrative, $narrative + 1)"
+    on_click="set(narrative_start, $narrative_start + 1)"
     animation="hover-grow"
   />
     
   </fab-if>
 
-  <fab-if when="$narrative=2">
+  <fab-if when="$narrative_start=2">
       <agent
     id="fala_start3"
     text="Fique longe."
