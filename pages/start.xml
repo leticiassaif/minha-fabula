@@ -17,8 +17,7 @@
     y="362"
     x="98"
     font-size="23"
-    color="white"
-    on_click="set(narrative, $narrative + 1)"
+    color="white"  
     animation="hover-glow"
   />
 
@@ -28,7 +27,7 @@
     y="505"
     x="633"
     color="white"
-    on_click="set(narrative, $narrative + 1)"
+    on_click="set(narrative, $narrative + 1)"        
     animation="hover-grow"
   />
     
@@ -53,7 +52,6 @@
     x="98"
     font-size="23"
     color="white"
-    on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
   />
 
@@ -87,7 +85,6 @@
     x="98"
     font-size="23"
     color="white"
-    on_click="set(narrative, $narrative + 1)"
     animation="hover-glow"
   />
     <agent
