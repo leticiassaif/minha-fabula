@@ -15,9 +15,9 @@
   <property name="narrative" default="0" />
 
   <start />
+  <choice1 />
   <start2/>
   <start3 />
-  <introduction1 />
   <introduction2 />
   <middle />
   <ending />
