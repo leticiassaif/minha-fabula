@@ -1,14 +1,14 @@
-<page id="start2" bg_image="tech-bgtile-2.png" bg_music="osts-fear.mp3">
+<page id="start2" bg_image="whatsapp_image_2025_06_10_at_21_44_18.jpeg">
 
   <agent
     id="mensagem1"
     text="A mensagem que eu recebi... Aquela era Mia, minha esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E eu tenho que encontrá-la."
     color="white"
     x="center"
-    y="540"
+    y="center"
     font-size="20"
     width = "700"
-    animation="fade-in"
+    animation="typewriter"
   />
 
   <agent
