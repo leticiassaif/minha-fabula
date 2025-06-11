@@ -1,5 +1,6 @@
 <page id="start2" bg_image="whatsapp_image_2025_06_10_at_21_44_18.jpeg">
 
+  <fab-if when="$narrative=0">
   <agent
     id="mensagem1"
     text="A mensagem que eu recebi... Aquela era Mia, minha esposa. Ela está desaparecida há 3 anos, agora ela tá de volta, de volta de algum jeito. E eu tenho que encontrá-la..."
@@ -21,8 +22,6 @@
     on_click="goToPage('start3')"
     animation="hover-grow"
   />
-</page>
-
-
+  </fab-if>
   
 </page>
