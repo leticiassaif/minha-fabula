@@ -1,16 +1,5 @@
 <page id="start" bg_image="forest-bg.png" >
 
-  <!-- <agent
-    id="fala_start"
-    text="Ethan… você tinha razão. Eu menti para você. Não deveria, mas -"
-    color="white"
-    x="center"
-    y="540"
-    font-size="20"
-    width = "700"
-    animation="typewriter"
-  /> -->
-
   <agent
     id="narrativa"
     text="Continuar?"
@@ -56,8 +45,7 @@
     x="center"
     y="center"
     font-size="40"
-    width = "700"
-    animation="typewriter"
+    animation="fade-in"
   />
 
   <agent
@@ -74,14 +62,14 @@
     <agent
     id="desistir1"
     text="Ficar longe."
-    y="520"
-    x="638"
+    y="450"
+    x="center"
     font-size="25"
     color="white"
+    width="200"
     on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
     animation="hover-grow"
   />
-</page>
   </fab-if>
 
 </page>
