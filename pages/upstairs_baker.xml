@@ -14,13 +14,12 @@
   <fab-if when="cassete_click=1">
   <agent
     id="fita_cassete_mensagem"
-    text="Voc"
+    text="Você adquiriu uma fita cassete."
     color="white"
-    x="300"
+    x="250"
     y="240"
-    width ="210"
-    animation="hover-grow"
-    on_click="set(cassete_click, $cassete_click + 1)"
+    font-size="20"
+    animation="fade-in-down"
    />
     </fab-if>
   
