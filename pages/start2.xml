@@ -41,7 +41,7 @@
     x="300"
     font-size="15"
     color="white"
-    on_click="goToPage('start3')"
+    on_click="goToPage('choice2')"
     animation="hover-grow"
   />
   
