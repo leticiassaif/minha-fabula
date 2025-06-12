@@ -17,10 +17,14 @@
     text="clique aqui para subir as escadas e prosseguir"
     color="white"
     x="50"
-    y="100"
-    font-size="20"
-    width="700"
-    animation="fade-in-down"
+    y="380"
+    font-size="18"
+    bg_color="black"
+    border="dotted"
+    radius="16"
+    width="350"
+    animation="hover-bg-color-[#8da56a]"
+    on_click="goToPage('upstairs_baker'); set($hall_click, 1)"
    />
   </fab-if>
   
