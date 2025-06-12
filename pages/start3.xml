@@ -1,8 +1,8 @@
 <page id="start3" bg_image="baker_house2.png">
 
      <agent
-    id="mensagem1"
-    text="A casa está acabada por dentro. A cozinha está cheia de comida estragada "
+    id="mensagem1_start3"
+    text="A casa está acabada por dentro. A cozinha está cheia de comida estragada e tem um jornal sobre 20 desaparecimentos em 2 anos na mesa de jantar."
     color="white"
     x="50"
     y="50"
