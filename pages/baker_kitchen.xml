@@ -16,7 +16,7 @@
     text="Seguindo reto você olha o final do corredor e uma escada, por onde você quer seguir?"
     color="white"
     x="50"
-    y="center"
+    y="260"
     font-size="20"
     width = "700"
     animation="fade-in-down"
