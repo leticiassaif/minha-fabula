@@ -16,7 +16,7 @@
     id="fita_cassete_mensagem"
     text="Você adquiriu uma fita cassete."
     color="white"
-    x="220"
+    x="210"
     y="180"
     font-size="20"
     bg_color="black"
@@ -25,6 +25,20 @@
     width="400"
     animation="fade-in-down"
    />
+
+    <agent
+    id="fita_cassete_botao"
+    text="clique aqui para prosseguir"
+    color="white"
+    x="230"
+    y="380"
+    font-size="20"
+    bg_color="black"
+    border="dotted"
+    radius="16"
+    width="350"
+    animation="hover-bg-color-[green]"
+    />
     </fab-if>
   
 </page>
