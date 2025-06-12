@@ -19,7 +19,8 @@
   <choice1 />
   <start2/>
   <baker_kitchen />
-  <introduction2 />
+  <upstairs_baker />
+  <hall_baker />
   <middle />
   <ending />
   <ending2 />
