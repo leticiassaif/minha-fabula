@@ -1,5 +1,14 @@
 <page id="upstairs_baker" bg_image="baker_house_upstairs.png">
 
-
+  <agent
+    id="fita_cassete"
+    image="cassete_tape.png"
+    color="white"
+    x="center"
+    y="center"
+    width ="130"
+    animation="fade-in-down"
+    on_click=""
+   />
     
 </page>
