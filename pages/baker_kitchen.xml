@@ -1,7 +1,7 @@
 <page id="baker_kitchen" bg_image="baker_house2.png">
 
      <agent
-    id="mensagem1_start3"
+    id="mensagem1_kitchen"
     text="A casa está acabada por dentro. A cozinha está cheia de comida estragada e tem um jornal sobre 20 desaparecimentos em 2 anos na mesa de jantar."
     color="white"
     x="50"
@@ -12,11 +12,33 @@
    />
 
        <agent
-    id="mensagem1_start3"
-    text="A casa está acabada por dentro. A cozinha está cheia de comida estragada e tem um jornal sobre 20 desaparecimentos em 2 anos na mesa de jantar."
+    id="mensagem2_kitchen"
+    text="Seguindo reto você olha o final do corredor e uma escada, por onde você quer seguir?"
     color="white"
     x="50"
-    y="50"
+    y="170"
+    font-size="20"
+    width = "700"
+    animation="fade-in-down"
+   />
+
+    <agent
+    id="stair_option_kitchen"
+    text="Subir a escada"
+    color="white"
+    x="50"
+    y="270"
+    font-size="20"
+    width = "700"
+    animation="fade-in-down"
+   />
+
+         <agent
+    id="hall_option_kitchen"
+    text="Seguindo reto você olha o final do corredor e uma escada, por onde você quer seguir?"
+    color="white"
+    x="50"
+    y="370"
     font-size="20"
     width = "700"
     animation="fade-in-down"
