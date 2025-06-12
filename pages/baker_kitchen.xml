@@ -34,9 +34,10 @@
     border_color="#8da56a"
     animation="hover-bg-color-[#8da56a]" 
     radius="16"
+    on_click="goToPage('upstairs_baker')"
    />
 
-         <agent
+    <agent
     id="hall_option_kitchen"
     text="Ir até o final do corredor"
     color="white"
@@ -48,6 +49,7 @@
     border_color="#8da56a"
     animation="hover-bg-color-[#8da56a]"
     radius="16"
+    on_click="goToPage('hall_baker')"
    />
   
   </page>
