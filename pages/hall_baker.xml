@@ -1,3 +1,34 @@
 <page id="hall_baker" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página hall_baker" color="white" font-size="24" />
+  
+  <fab-if when="cassete_click>0">
+  <agent
+    id="hall_mensagen_com_fita"
+    text="Após conseguir a fita cassete, você vai para a sala de estar e percebe que você pode assisti-lá na TV."
+    color="white"
+    x="210"
+    y="180"
+    font-size="20"
+    bg_color="black"
+    border="dotted"
+    radius="16"
+    width="400"
+    animation="fade-in-down"
+   />
+
+    <agent
+    id="fita_cassete_botao"
+    text="clique aqui para prosseguir"
+    color="white"
+    x="230"
+    y="380"
+    font-size="20"
+    bg_color="black"
+    border="dotted"
+    radius="16"
+    width="350"
+    animation="hover-bg-color-[#8da56a]"
+    on_click="goToPage('hall_baker'); set($cassete_click, 2)"
+    />
+    </fab-if>
+  
 </page>
