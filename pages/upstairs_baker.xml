@@ -1,14 +1,29 @@
 <page id="upstairs_baker" bg_image="baker_house_upstairs.png">
 
+<fab-if when="cassete_click=0">
   <agent
     id="fita_cassete"
     image="cassete_tape.png"
     color="white"
-    x="center"
-    y="center"
-    width ="130"
-    animation="fade-in-down"
-    on_click=""
+    x="300"
+    y="240"
+    width ="210"
+    animation="hover-grow"
+    on_click="set(cassete_click, $cassete_click + 1)"
    />
-    
+    </fab-if>
+
+  <fab-if when="cassete_click=1">
+  <agent
+    id="fita_cassete_mensagem"
+    image="cassete_tape.png"
+    color="white"
+    x="300"
+    y="240"
+    width ="210"
+    animation="hover-grow"
+    on_click="set(cassete_click, $cassete_click + 1)"
+   />
+    </fab-if>
+  
 </page>
