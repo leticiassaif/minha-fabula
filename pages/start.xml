@@ -93,7 +93,7 @@
     y="505"
     x="633"
     color="white"
-    on_click="goToPage('choice1')"
+    on_click="goToPage('choice1'); set(narrative_start, 0)"
     animation="hover-grow"
   />
     
