@@ -1,13 +1,14 @@
-<page id="hall_baker" bg_color="black">
+<<page id="hall_baker" bg_color="black">
 
   <fab-if when="cassete_click=0">
   <agent
     id="hall_mensagen_sem_fita"
     text="Você chega na sala, pois é a única porta aberta do corredor. Nela contém fotografias espalahadas pelo chão, um piano, uma lareira e uma TV. Além disso, tem um interruptor que não funciona na parede."
     color="white"
-    x="210"
-    y="180"
+    x="50"
+    y="100"
     font-size="20"
+    width="700"
     animation="fade-in-down"
    />
   </fab-if>
