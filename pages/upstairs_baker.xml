@@ -1,6 +1,5 @@
 <page id="upstairs_baker" bg_image="baker_house_upstairs.png">
 
-<fab-if when="cassete_click=0">
   <agent
     id="fita_cassete"
     image="cassete_tape.png"
@@ -11,12 +10,11 @@
     animation="hover-grow"
     on_click="set(cassete_click, $cassete_click + 1)"
    />
-    </fab-if>
 
   <fab-if when="cassete_click=1">
   <agent
     id="fita_cassete_mensagem"
-    image="cassete_tape.png"
+    text="Voc"
     color="white"
     x="300"
     y="240"
