@@ -14,6 +14,7 @@
 
   <property name="narrative_start" default="0" />
   <property name="cassete_click" default="0" />
+  <property name="hall_click" default="0" />
 
   <start />
   <choice1 />
