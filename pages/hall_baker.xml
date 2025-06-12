@@ -24,7 +24,7 @@
     radius="16"
     width="350"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('upstairs_baker'); set($hall_click, 1)"
+    on_click="goToPage('upstairs_baker'); set(hall_click, $hall_click + 1)"
    />
   </fab-if>
   
@@ -45,7 +45,7 @@
   <fab-if when="hall_click=1">
   <agent
     id="hall_mensagen_com_fita_alt"
-    text="Após conseguir a fita cassete, você volta sala de estar e  percebe que você pode assisti-lá na TV."
+    text="Após conseguir a fita cassete, você volta sala de estar e percebe que você pode assisti-lá na TV."
     color="white"
     x="center"
     y="180"
