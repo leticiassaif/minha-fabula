@@ -41,7 +41,7 @@
     x="center"
     font-size="15"
     color="white"
-    on_click="goToPage('choice2'); set(coragem, $coragem + 20); set(sanidade, $sanidade - 10)"
+    on_click="goToPage('baker_kitchen'); set(coragem, $coragem + 20); set(sanidade, $sanidade - 10)"
     bg_color="transparent"
     border="dotted"
     border_color="#8da56a"
