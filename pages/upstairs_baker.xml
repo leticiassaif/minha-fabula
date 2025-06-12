@@ -37,7 +37,7 @@
     border="dotted"
     radius="16"
     width="350"
-    animation="hover-bg-color-[green]"
+    animation="hover-bg-color-[#8da56a]"
     />
     </fab-if>
   
