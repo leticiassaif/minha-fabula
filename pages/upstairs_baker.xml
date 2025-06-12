@@ -16,9 +16,13 @@
     id="fita_cassete_mensagem"
     text="Você adquiriu uma fita cassete."
     color="white"
-    x="250"
-    y="240"
+    x="220"
+    y="180"
     font-size="20"
+    bg_color="black"
+    border="dotted"
+    radius="16"
+    width="400"
     animation="fade-in-down"
    />
     </fab-if>
