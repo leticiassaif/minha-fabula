@@ -9,6 +9,7 @@
     font-size="20"
     width = "700"
     animation="fade-in-down"
+    border="solid"
     border_color="black"
    />
 
