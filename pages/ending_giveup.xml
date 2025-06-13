@@ -1,7 +1,7 @@
 <page id="ending_giveup" bg_color="darkslategrey">
   
   <agent
-    id="tipo_de_final"
+    id="tipo_de_final_ouvinte"
     text="Final Ouvinte"
     x="223"
     y="40"
@@ -11,7 +11,7 @@
   />
 
   <agent
-    id="descricao_do_final"
+    id="descricao_do_final_ouvinte"
     text="Você escutou o aviso da mensagem e ficou longe. Entretanto você nunca saberá o que realmente aconteceu com ???."
     x="center"
     y="130"
@@ -22,7 +22,7 @@
   />
 
   <agent
-    id="resultado_texto"
+    id="resultado_texto1"
     x="310"
     y="450"
     text="Resultados"
@@ -33,7 +33,7 @@
 
 
   <agent
-    id="resultado_vida_coragem"
+    id="resultado_vida_coragem1"
     x="48"
     y="500"
     text="❤️ Vida: $vida | 🛡️ Coragem: $coragem | 🧠 Sanidade: $sanidade"
