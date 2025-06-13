@@ -164,7 +164,7 @@
   <agent 
     id="passage_message_6"
     x="50"
-    y="110"
+    y="140"
     text="Mia leva você para uma sala escondida. Por ela estar frenética, você diz a ela para descansar um pouco no sofá enquanto você procura uma saída."
     color="white"
     font-size="20"
@@ -175,7 +175,7 @@
   <agent 
     id="passage_message_7"
     x="50"
-    y="230"
+    y="240"
     text="Porém, depois de se afastar dela, você escuta ela gritando para deixar ela em paz e, quando você volta, tem um buraco na parede e ela não está mais no sofá. O buraco leva para uma escada e, ao final dela, tem uma porta."
     color="white"
     font-size="20"
@@ -186,7 +186,7 @@
   <agent 
     id="passage_button_4"
     x="center"
-    y="400"
+    y="380"
     text="clique para prosseguir"
     color="white"
     width="280"
