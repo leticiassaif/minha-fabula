@@ -21,7 +21,9 @@
   <baker_kitchen />
   <baker_upstairs />
   <baker_hall />
+  <baker_passage />
   <middle />
   <ending />
   <ending_giveup />
+  <ending_scared />
 </fable>
