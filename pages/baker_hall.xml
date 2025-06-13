@@ -60,8 +60,9 @@
     id="mensagem_assistindo_a_fita"
     text="A fita mostra 3 homens explorando essa mesma casa. Em certo momento, Andre, um desses homens desaparece e os outros dois começam a procurá-lo. Eles acham uma alavanca na lareira que leva para uma passagem secreta. Após descerem as escadas dessa passagem, eles acham o corpo de Andre e a fita acaba."
     color="white"
-    x="center"
-    y="180"
+    x="50"
+    y="220"
+    width="700"
     font-size="20"
     animation="fade-in-down"
    />
