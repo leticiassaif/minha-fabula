@@ -8,7 +8,7 @@
     y="240"
     width ="210"
     animation="hover-grow"
-    on_click="set(cassete_click, $cassete_click + 1)"
+    on_click="set(cassete_click, $cassete_click + 1); setIf(${condicao}, ${nome}, ${valor})"
    />
 
   <fab-if when="cassete_click=1">
