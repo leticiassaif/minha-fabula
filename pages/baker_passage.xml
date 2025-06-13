@@ -4,7 +4,7 @@
   <agent 
     id="passage_message_1"
     x="50"
-    y="50"
+    y="200"
     text="Após puxar a alavanca da lareira, você entra na mesma passagem que viu na fita cassete e decide descer as escadas. Por ser muito velha, ela quebra e você perde 15 de vida."
     color="white"
     font-size="20"
