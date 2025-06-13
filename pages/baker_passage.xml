@@ -166,7 +166,7 @@
     id="passage_message_6"
     x="50"
     y="110"
-    text="Mia leva você "
+    text="Mia leva você para uma sala escondida. Por ela estar frenética, você diz a ela para descansar um pouco no sofá enquanto você procura uma saída."
     color="white"
     font-size="20"
     width="700"
@@ -177,18 +177,7 @@
     id="passage_message_7"
     x="50"
     y="180"
-    text="Quando você acorda ela, ela está desorientada e diz que você não deveria estar lá. Ela não lembra de ter mandado o email. E fala que vocês tem que sair de lá, pois o papai está vindo."
-    color="white"
-    font-size="20"
-    width="700"
-    animation="fade-in-down"
-    />
-
-  <agent 
-    id="passage_message_8"
-    x="50"
-    y="280"
-    text="Mia fica chocada quando você fala que ela está desaparecida há 3 anos. Ela está extremamente agitada e quer sair da casa imediatamente."
+    text="Porém, depois de se afastar dela, você escuta ela gritando para deixar ela em paz e, quando você volta, tem um rombo na parede e ela não está mais no sofá."
     color="white"
     font-size="20"
     width="700"
