@@ -1,4 +1,4 @@
-<page id="start2" bg_image="baker_house1.png">
+<page id="baker_outside" bg_image="baker_house1.png">
 
      <agent
     id="mensagem1"
