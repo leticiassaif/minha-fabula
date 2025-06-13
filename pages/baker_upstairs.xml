@@ -1,4 +1,4 @@
-<page id="upstairs_baker" bg_image="baker_house_upstairs.png">
+<page id="baker_upstairs" bg_image="baker_house_upstairs.png">
 
   <agent
     id="fita_cassete"
