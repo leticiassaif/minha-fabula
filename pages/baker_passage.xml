@@ -1,5 +1,6 @@
 <page id="baker_passage" bg_image="baker_secret_passage.png">
-  
+
+<fab-if when="narrative_passage=0">
   <agent 
     id="passage_message_1"
     x="50"
@@ -10,6 +11,7 @@
     width="700"
     animation="fade-in-down"
     />
+</fab-if>
 
   <agent 
     id="passage_message_2"
