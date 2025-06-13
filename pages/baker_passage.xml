@@ -14,12 +14,16 @@
   
   <agent
     id="botao1_passage"
-    text="continuar?"
-    y="505"
-    x="633"
+    text="clique para prosseguir"
+    y="320"
+    x="250"
     color="white"
     on_click="set(narrative_passage, $narrative_passage + 1)"        
-    animation="hover-grow"
+    border="dotted"
+    border_color="#8da56a"
+    radius="16"
+    width="280"
+    animation="hover-bg-color-[#8da56a]"
   />
 </fab-if>
 
