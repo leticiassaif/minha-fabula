@@ -6,7 +6,7 @@
     text="Você chega na sala, pois é a única porta aberta do corredor. Nela contém fotografias espalahadas pelo chão, um piano, uma lareira e uma TV. Além disso, tem um interruptor que não funciona na parede. Nada de interessante."
     color="white"
     x="50"
-    y="100"
+    y="200"
     font-size="20"
     width="700"
     animation="fade-in-down"
@@ -16,15 +16,15 @@
     id="hall_bota_sem_fita"
     text="clique aqui para subir as escadas e prosseguir"
     color="white"
-    x="50"
+    x="center"
     y="380"
     font-size="18"
-    bg_color="black"
+    bg_color="transparent"
     border="dotted"
     radius="16"
-    width="350"
+    width="460"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('upstairs_baker'); set(hall_click, $hall_click + 1)"
+    on_click="goToPage('baker_upstairs'); set(hall_click, $hall_click + 1)"
    />
   </fab-if>
   
