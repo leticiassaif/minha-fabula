@@ -29,7 +29,7 @@
 
 <fab-if when="narrative_passage=1">
   <agent 
-    id="passage_background_2"
+    id="passage_background_guard_1"
     x="center"
     y="center"
     image="baker_guard.png"
@@ -37,18 +37,19 @@
     />
   
   <agent 
-    id="passage_boltcutters"
-    x="50"
+    id="passage_boltcutters_1"
+    x="490"
     y="50"
     image="boltcutters.png"
-    width="100"
-    animation="fade-in-down"
+    width="150"
+    animation="hover-grow"
+    on_click="set(narrative_passage, $narrative_passage + 1)"
     />
 </fab-if>
 
 <fab-if when="narrative_passage=2">
   <agent 
-    id="passage_background_3"
+    id="passage_background_guard_2"
     x="center"
     y="center"
     image="baker_guard.png"
