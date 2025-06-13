@@ -55,6 +55,15 @@
     image="baker_guard.png"
     width="1100"
     />
+
+  <agent 
+    id="passage_boltcutters_2"
+    x="350"
+    y="200"
+    image="boltcutters.png"
+    width="130"
+    animation="hover-tilt"
+    />
   
   <agent 
     id="passage_message_2"
