@@ -13,7 +13,7 @@
     />
   
   <agent
-    id="botao1_passage"
+    id="passage_button_1"
     text="clique para prosseguir"
     y="320"
     x="250"
