@@ -20,8 +20,8 @@
   <choice1 />
   <start2/>
   <baker_kitchen />
-  <upstairs_baker />
-  <hall_baker />
+  <baker_upstairs />
+  <baker_hall />
   <middle />
   <ending />
   <ending_giveup />
