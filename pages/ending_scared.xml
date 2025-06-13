@@ -1,3 +1,44 @@
-<page id="ending_scared" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página ending_scared" color="white" font-size="24" />
+<page id="ending_scared" bg_color="#c11a4a">
+  <agent
+    id="tipo_de_final_ouvinte"
+    text="Final Ouvinte"
+    x="223"
+    y="40"
+    color="white"
+    font-size="50"
+    animation="fade-in-down"
+  />
+
+  <agent
+    id="descricao_do_final_ouvinte"
+    text="Você escutou o aviso da mensagem e ficou longe. Entretanto você nunca saberá o que realmente aconteceu com ???."
+    x="center"
+    y="130"
+    color="white"
+    width="500"
+    font-size="20"
+    animation="typewriter"
+  />
+
+  <agent
+    id="resultado_texto1"
+    x="310"
+    y="450"
+    text="Resultados"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
+
+
+  <agent
+    id="resultado_vida_coragem1"
+    x="48"
+    y="500"
+    text="❤️ Vida: $vida | 🛡️ Coragem: $coragem | 🧠 Sanidade: $sanidade"
+    width="700"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
 </page>
