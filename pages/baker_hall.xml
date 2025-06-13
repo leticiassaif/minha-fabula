@@ -24,7 +24,7 @@
     radius="16"
     width="460"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('baker_upstairs'); set(hall_click, $hall_click + 1); set(cassete_click, $cassete_click + 1)"
+    on_click="goToPage('baker_upstairs'); set(hall_click, $hall_click + 1)"
    />
   </fab-if>
   
