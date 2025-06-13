@@ -23,7 +23,7 @@
     width="200"
     animation="hover-bg-color-[#c0c4b8]"
     radius="16"
-    on_click="goToPage('ending2'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
+    on_click="goToPage('ending_giveup'); set(coragem, $coragem - 30); set(sanidade, $sanidade - 20)"
   />
 
       <agent
