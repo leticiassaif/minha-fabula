@@ -34,7 +34,7 @@
     border_color="#8da56a"
     animation="hover-bg-color-[#8da56a]" 
     radius="16"
-    on_click="goToPage('baker_upstairs')"
+    on_click="goToPage('baker_upstairs'); set(cassete_click, 0)"
    />
 
     <agent
