@@ -1,4 +1,4 @@
-<page id="baker_hall" bg_color="black">
+<page id="baker_hall" bg_image="baker_hallway.png">
 
   <fab-if when="cassete_click=0">
   <agent
