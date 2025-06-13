@@ -17,7 +17,7 @@
 
   <start />
   <choice1 />
-  <start2/>
+  <baker_outside/>
   <baker_kitchen />
   <baker_upstairs />
   <baker_hall />
