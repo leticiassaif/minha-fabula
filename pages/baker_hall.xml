@@ -42,7 +42,7 @@
 
     </fab-if>
 
-  <fab-if when="hall_click=1">
+  <fab-if when="cassete_click=2">
   <agent
     id="hall_mensagen_com_fita_alt"
     text="Após conseguir a fita cassete, você volta sala de estar e percebe que você pode assisti-lá na TV."
