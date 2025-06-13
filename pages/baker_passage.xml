@@ -1,0 +1,3 @@
+<page id="baker_passage" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página baker_passage" color="white" font-size="24" />
+</page>
