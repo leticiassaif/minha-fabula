@@ -18,7 +18,7 @@
     y="505"
     x="633"
     color="white"
-    on_click="set(narrative_start, $narrative_start + 1)"        
+    on_click="set(narrative_passage, $narrative_passage + 1)"        
     animation="hover-grow"
   />
 </fab-if>
