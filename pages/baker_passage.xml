@@ -29,6 +29,15 @@
 
 <fab-if when="narrative_passage=1">
   <agent 
+    id="passage_background_2"
+    x="50"
+    y="150"
+    image="baker_guard.png"
+    width="700"
+    animation="fade-in-down"
+    />
+  
+  <agent 
     id="passage_message_2"
     x="50"
     y="150"
@@ -38,6 +47,7 @@
     width="700"
     animation="fade-in-down"
     />
+
 </fab-if>
   
 </page>
