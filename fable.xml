@@ -23,6 +23,7 @@
   <baker_upstairs />
   <baker_hall />
   <baker_passage />
+  <baker_hall_alt />
   <middle />
   <ending />
   <ending_giveup />
