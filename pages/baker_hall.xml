@@ -47,9 +47,10 @@
     id="hall_mensagen_com_fita_alt"
     text="Após conseguir a fita cassete, você volta sala de estar e percebe que você pode assisti-lá na TV."
     color="white"
-    x="center"
+    x="50"
     y="180"
     font-size="20"
+    width="700"
     animation="fade-in-down"
    />
     </fab-if>
