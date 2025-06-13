@@ -30,24 +30,41 @@
 <fab-if when="narrative_passage=1">
   <agent 
     id="passage_background_2"
-    x="50"
-    y="150"
+    x="center"
+    y="center"
     image="baker_guard.png"
-    width="700"
+    width="1100"
+    />
+  
+  <agent 
+    id="passage_boltcutters"
+    x="50"
+    y="50"
+    image="boltcutters.png"
+    width="100"
     animation="fade-in-down"
+    />
+</fab-if>
+
+<fab-if when="narrative_passage=2">
+  <agent 
+    id="passage_background_3"
+    x="center"
+    y="center"
+    image="baker_guard.png"
+    width="1100"
     />
   
   <agent 
     id="passage_message_2"
     x="50"
-    y="150"
+    y="50"
     text="Após puxar a alavanca da lareira, você entra na mesma passagem que viu na fita cassete e decide descer as escadas. Por ser muito velha, ela quebra e você perde 15 de vida."
     color="white"
     font-size="20"
     width="700"
     animation="fade-in-down"
     />
-
 </fab-if>
-  
+
 </page>
