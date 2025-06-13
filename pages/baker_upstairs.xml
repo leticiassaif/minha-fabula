@@ -38,7 +38,7 @@
     radius="16"
     width="350"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('baker_hall'); setIf($hall_click > 0, $cassete_click, 0)"
+    on_click="goToPage('baker_hall'); setIf($hall_click = 1, $cassete_click, 0)"
     />
     </fab-if>
   
