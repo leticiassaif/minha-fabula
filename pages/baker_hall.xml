@@ -58,7 +58,7 @@
   <fab-if when="cassete_click < 5 or cassete_click=6">
   <agent
     id="mensagem_assistindo_a_fita"
-    text="A fita mostra 3 homens explorando essa mesma casa. Em certo momento, Andre, um desses homens desaparece e os outros dois começam a procurá-lo. Eles acham uma alavanca na lareira que leva para uma passagem secreta. Após descerem as escadas dessa passagem, eles acham o corpo de Andre e a fita acaba."
+    text="A fita mostra 3 homens explorando essa mesma casa. Em certo momento, Andre, um desses homens desaparece e os outros dois começam a procurá-lo. Eles acham uma alavanca na lareira que leva para uma passagem secreta. Após descerem as escadas dessa passagem, eles acham o corpo de Andre e a fita acaba. Você deseja ir para a passagem secreta ou sair da casa imediatamente."
     color="white"
     x="50"
     y="220"
@@ -66,7 +66,36 @@
     font-size="20"
     animation="fade-in-down"
    />
+    
+  <agent
+    id="escolha1_final2"
+    text="Ir para a passagem"
+    color="white"
+    x="center"
+    y="350"
+    font-size="18"
+    border="dotted"
+    border_color="#8da56a"
+    radius="16"
+    width="460"
+    animation="hover-bg-color-[#8da56a]"
+    on_click="goToPage('baker_upstairs')"
+   />
 
+  <agent
+    id="escolha2_final2"
+    text="Sair da casa"
+    color="white"
+    x="center"
+    y="350"
+    font-size="18"
+    border="dotted"
+    border_color="#8da56a"
+    radius="16"
+    width="460"
+    animation="hover-bg-color-[#8da56a]"
+    on_click="goToPage('baker_upstairs')"
+   />
     </fab-if>
   
 </page>
