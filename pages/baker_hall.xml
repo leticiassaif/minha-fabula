@@ -1,6 +1,6 @@
 <page id="baker_hall" bg_image="baker_hallway.png">
 
-  <fab-if when="cassete_click < 0">
+  <fab-if when="cassete_click = 5">
   <agent
     id="hall_mensagen_sem_fita"
     text="Você chega na sala, pois é a única porta aberta do corredor. Nela contém fotografias espalahadas pelo chão, um piano, uma lareira e uma TV. Além disso, tem um interruptor que não funciona na parede. Nada de interessante."
@@ -54,7 +54,7 @@
    />
     </fab-if>
 
-  <fab-if when="cassete_click>0">
+  <fab-if when="cassete_click < 5">
   <agent
     id="mensagem_assistindo_a_fita"
     text="A fita mostra..."
