@@ -1,7 +1,7 @@
 <page id="ending_scared" bg_color="#c11a4a">
   <agent
     id="tipo_de_final_ouvinte"
-    text="Final Ouvinte"
+    text="Final Medroso"
     x="223"
     y="40"
     color="white"
@@ -11,7 +11,7 @@
 
   <agent
     id="descricao_do_final_ouvinte"
-    text="Você escutou o aviso da mensagem e ficou longe. Entretanto você nunca saberá o que realmente aconteceu com ???."
+    text="Após ver o triste final de Andre, você fica assustado e hesita, e decide sair daquela casa macabra imediatamente. Você nunca saberá o que aconteceu com Mia, sua esposa. E agora você recebe constantemente emails estranhos..."
     x="center"
     y="130"
     color="white"
