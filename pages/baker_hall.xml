@@ -79,7 +79,7 @@
     radius="16"
     width="220"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('baker_passage')set(vida, $vida - 15); set(sanidade, $sanidade - 50)"
+    on_click="goToPage('baker_passage'); set(vida, $vida - 15); set(sanidade, $sanidade - 50)"
    />
 
   <agent
