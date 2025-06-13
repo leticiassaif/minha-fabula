@@ -54,7 +54,7 @@
    />
     </fab-if>
 
-  <fab-if when="cassete_click < 5">
+  <fab-if when="cassete_click < 5 or cassete_click=6">
   <agent
     id="mensagem_assistindo_a_fita"
     text="A fita mostra..."
