@@ -7,7 +7,7 @@
     x="80"
     font-size="25"
     color="white"
-    on_click="goToPage('start2'); set(coragem, $coragem + 20)"
+    on_click="goToPage('baker_outside'); set(coragem, $coragem + 20)"
     animation="hover-bg-color-[#c0c4b8]"
     radius="16"
     width="270"
