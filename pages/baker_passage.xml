@@ -38,8 +38,8 @@
   
   <agent 
     id="passage_boltcutters_1"
-    x="490"
-    y="50"
+    x="500"
+    y="160"
     image="boltcutters.png"
     width="150"
     animation="hover-grow"
