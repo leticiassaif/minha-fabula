@@ -11,6 +11,16 @@
     width="700"
     animation="fade-in-down"
     />
+  
+  <agent
+    id="botao1_passage"
+    text="continuar?"
+    y="505"
+    x="633"
+    color="white"
+    on_click="set(narrative_start, $narrative_start + 1)"        
+    animation="hover-grow"
+  />
 </fab-if>
 
 <fab-if when="narrative_passage=1">
