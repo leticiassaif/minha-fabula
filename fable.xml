@@ -14,6 +14,7 @@
 
   <property name="narrative_start" default="0" />
   <property name="narrative_passage" default="0" />
+  <property name="narrative_hall_alt" default="0" />
   <property name="cassete_click" default="0" />
 
   <start />
