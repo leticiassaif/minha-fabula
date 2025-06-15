@@ -221,7 +221,7 @@
     image="fuse.png"
     width="150"
     animation="hover-grow"
-    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"
+    on_click="goToPage('mia_hall_fight')"
     />
 
   <agent 
