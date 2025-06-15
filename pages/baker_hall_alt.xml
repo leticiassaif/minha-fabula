@@ -159,7 +159,7 @@
   <agent 
     id="hall_alt_button_2"
     x="center"
-    y="400"
+    y="480"
     text="clique para prosseguir"
     color="white"
     width="280"
