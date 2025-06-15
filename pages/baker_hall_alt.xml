@@ -5,7 +5,7 @@
     id="hall_alt_message_1"
     x="50"
     y="150"
-    text="Após subir as escadas, você encontra um corredor vazio com duas portas. Uma delas leva ao banheiro e você acha dois frascos de primeiro socorros. Você ganhou +25 de vida."
+    text="Após subir as escadas, você encontra um corredor vazio com duas portas. Uma delas leva ao banheiro e você acha dois frascos de primeiro socorros. Você ganhou 25 de vida."
     color="white"
     font-size="20"
     width="700"
@@ -33,7 +33,7 @@
     radius="16"
     border="dotted"
     border_color="black"
-    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"        
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1); set(vida, $vida - 20); set(sanidade, $sanidade - 30); set(coragem, $coragem - 10)"        
     animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
@@ -43,7 +43,7 @@
     id="hall_alt_message_3"
     x="50"
     y="150"
-    text="Você olha Mia subindo as escadas rastejando. Ela ataca você com uma faca."
+    text="Você olha Mia subindo as escadas rastejando. Ela ataca você com uma faca. Você se machuca e perde 20 de vida e 30 de sanidade, mas você ganha 10 de coragem. Após resistir, ela para de te atacar e fala que consegue ouvi e sentir 'ela' querendo voltar e começa a bater a cabeça na parede."
     color="white"
     font-size="20"
     width="700"
@@ -53,8 +53,8 @@
   <agent 
     id="hall_alt_message_4"
     x="50"
-    y="250"
-    text="A outra porta está trancada. Barulhos podem ser ouvidos vindo da escada que você acabou de subir, então você decide ir olhar o que é."
+    y="310"
+    text="Mia fica inconsciente. Você se questiona o que aconteceu com sua esposa e quem é 'ela'. Ao aproximar-se do corpo, Mia se levanta bruscamente e "
     color="white"
     font-size="20"
     width="700"
@@ -64,7 +64,7 @@
   <agent 
     id="hall_alt_button_2"
     x="center"
-    y="360"
+    y="400"
     text="clique para prosseguir"
     color="white"
     width="280"
