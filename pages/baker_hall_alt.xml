@@ -33,7 +33,7 @@
     radius="16"
     border="dotted"
     border_color="black"
-    on_click="set(narrative_passage, $narrative_passage + 1)"        
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"        
     animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
@@ -71,7 +71,7 @@
     radius="16"
     border="dotted"
     border_color="black"
-    on_click="set(narrative_passage, $narrative_passage + 1)"        
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"         
     animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
