@@ -92,7 +92,7 @@
     radius="16"
     border="dotted"
     border_color="black"
-    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"         
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1); set(sanidade, $sanidade - 20)"         
     animation="hover-bg-color-[#8da56a]"
     />
 
@@ -111,6 +111,8 @@
     animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
+
+
 <fab-if when="narrative_hall_alt = 2">
   <agent 
     id="picking_up_phone"
@@ -124,7 +126,7 @@
   <agent 
     id="hall_alt_message_6"
     x="50"
-    y="80"
+    y="50"
     text="Você ataca Mia no pescoço com o machado. Ela cai no chão, desacordada, sangrando muito. Você entra em pânico. O telefone do corredor começa a tocar e você o atende."
     color="white"
     font-size="20"
@@ -135,8 +137,8 @@
   <agent 
     id="hall_alt_message_7"
     x="50"
-    y="170"
-    text="'Você realmente não deveria ter vindo aqui.', a pessoa da outra linha fala. Quando você pergunta quem é e o que está acontecendo, ela diz que seu nome é Zoe e que há uma saída no sotão. Para acessá-lo, você precisa o interruptor da sala de estar esteja funcionando, porém Zoe diz que ele precisa de um fusível e que esse fusível está trancado por uma corrente na cozinha."
+    y="150"
+    text="'Você realmente não deveria ter vindo aqui.' - a pessoa da outra linha fala. Quando você pergunta quem é e o que está acontecendo, ela diz que seu nome é Zoe e que há uma saída no sotão. Para acessá-lo, você precisa do interruptor da sala de estar esteja funcionando, porém Zoe diz que ele precisa de um fusível e que esse fusível está trancado por uma corrente na cozinha."
     color="white"
     font-size="20"
     width="700"
@@ -146,12 +148,26 @@
   <agent 
     id="hall_alt_message_8"
     x="50"
-    y="380"
-    text="Ao procurar por Mia, você percebe que ela não está mais desacordada... Você decide pegar o machado novamente. A porta trancada agora está aberta "
+    y="340"
+    text="Ao procurar por Mia, você percebe que ela não está mais desacordada... Pelo menos ela está viva. Você decide pegar o machado novamente. A porta anteriormente trancada agora está aberta e ela leva ao corredor da sala de estar."
     color="white"
     font-size="20"
     width="700"
     animation="fade-in-down"
+    />
+
+  <agent 
+    id="hall_alt_button_2"
+    x="center"
+    y="400"
+    text="clique para prosseguir"
+    color="white"
+    width="280"
+    radius="16"
+    border="dotted"
+    border_color="black"
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"        
+    animation="hover-bg-color-[#8da56a]"
     />
  </fab-if>
 </page>
