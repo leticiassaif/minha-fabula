@@ -193,7 +193,7 @@
     radius="16"
     border="dotted"
     border_color="black"
-    on_click="goToPage('baker_hall_alt')"        
+    on_click="goToPage('baker_hall_alt'); set(vida, $vida + 25)"        
     animation="hover-bg-color-[#8da56a]"
     />
 </fab-if>
