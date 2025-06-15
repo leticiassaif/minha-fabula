@@ -4,7 +4,7 @@
   <agent 
     id="hall_alt_message_1"
     x="50"
-    y="140"
+    y="150"
     text="Após subir as escadas, você encontra um corredor vazio com duas portas. Uma delas leva ao banheiro e você acha dois frascos de primeiro socorros. Você ganhou +25 de vida."
     color="white"
     font-size="20"
@@ -15,12 +15,26 @@
   <agent 
     id="hall_alt_message_2"
     x="50"
-    y="240"
+    y="250"
     text="A outra porta está trancada. Barulhos podem ser ouvidos vindo da escada que você acabou de subir, então você decide ir olhar o que é."
     color="white"
     font-size="20"
     width="700"
     animation="fade-in-down"
+    />
+
+  <agent 
+    id="passage_button_3"
+    x="center"
+    y="360"
+    text="clique para prosseguir"
+    color="white"
+    width="280"
+    radius="16"
+    border="dotted"
+    border_color="black"
+    on_click="set(narrative_passage, $narrative_passage + 1)"        
+    animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
 </page>
