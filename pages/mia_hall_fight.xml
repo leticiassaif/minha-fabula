@@ -22,7 +22,7 @@
     radius="16"
     width="460"
     animation="hover-bg-color-[#8da56a]"
-    on_click="set(mia_fight, $mia_fight + 1)"
+    on_click="set(mia_fight, $mia_fight + 1); set(sanidade, $sanidade - 20)"
     />
 </fab-if>
 
@@ -49,7 +49,7 @@
     radius="16"
     width="280"
     animation="hover-bg-color-[#8da56a]"
-    on_click="set(mia_fight, $mia_fight + 1)"
+    on_click="set(mia_fight, $mia_fight + 1); set(vida, $vida - 20)"
     />
 
   <agent 
@@ -63,7 +63,7 @@
     radius="16"
     width="280"
     animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('ending_chainsaw')"
+    on_click="goToPage('ending_chainsaw'); set(vida, 0); set(sanidade, 10)"
     />
 </fab-if>
 </page>
