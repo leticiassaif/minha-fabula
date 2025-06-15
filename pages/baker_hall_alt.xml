@@ -1,3 +1,14 @@
 <page id="baker_hall_alt" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página baker_hall_alt" color="white" font-size="24" />
+
+  <agent 
+    id="hall_alt_message_1"
+    x="50"
+    y="140"
+    text="Após subir as escadas, você encontra um corredor vazio e dois frascos de primeiro socorros. Você ganhou +25 de vida."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+  
 </page>
