@@ -182,7 +182,7 @@
 
   <agent 
     id="hall_boltcutters_1"
-    x="center"
+    x="310"
     y="200"
     image="boltcutters.png"
     width="150"
@@ -216,7 +216,7 @@
 
   <agent 
     id="hall_fuse_1"
-    x="350"
+    x="300"
     y="200"
     image="fuse.png"
     width="150"
