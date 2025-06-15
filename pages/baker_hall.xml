@@ -92,7 +92,7 @@
     border_color="#8da56a"
     radius="16"
     width="200"
-   animation="hover-bg-color-[#8da56a]"Add commentMore actions
+   animation="hover-bg-color-[#8da56a]"
     on_click="goToPage('ending_scared'); set(coragem, $coragem - 20); set(sanidade, $sanidade - 30)"
    />
 </fab-if>
