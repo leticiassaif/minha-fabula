@@ -1,4 +1,4 @@
-<page id="baker_hall_alt" bg_color="black">
+<page id="baker_hall_alt" bg_image="baker_hall_alt.png">
 
 <fab-if when="narrative_hall_alt = 0">
   <agent 
@@ -39,6 +39,15 @@
  </fab-if> 
 
 <fab-if when="narrative_hall_alt = 1">
+  <agent 
+    id="mia_boss_fight_1"
+    x="center"
+    y="center"
+    image="mia_fight_1.png"
+    width="1100"
+    animation="fade-in"
+    />
+
   <agent 
     id="hall_alt_message_3"
     x="50"
