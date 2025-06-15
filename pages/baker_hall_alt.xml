@@ -42,7 +42,7 @@
   <agent 
     id="hall_alt_message_3"
     x="50"
-    y="150"
+    y="80"
     text="Você olha Mia subindo as escadas rastejando. Ela ataca você com uma faca. Você se machuca e perde 20 de vida e 30 de sanidade, mas você ganha 10 de coragem. Após resistir, ela para de te atacar e fala que consegue ouvi e sentir 'ela' querendo voltar e começa a bater a cabeça na parede."
     color="white"
     font-size="20"
@@ -53,14 +53,25 @@
   <agent 
     id="hall_alt_message_4"
     x="50"
-    y="310"
-    text="Mia fica inconsciente. Você se questiona o que aconteceu com sua esposa e quem é 'ela'. Ao aproximar-se do corpo, Mia se levanta bruscamente e "
+    y="240"
+    text="Mia fica inconsciente. Você se questiona o que aconteceu com sua esposa e quem é 'ela'. Ao aproximar-se do corpo, Mia se levanta bruscamente e te joga na parede, quebrando-a."
     color="white"
     font-size="20"
     width="700"
     animation="fade-in-down"
     />
 
+  <agent 
+    id="hall_alt_message_5"
+    x="50"
+    y="340"
+    text="Você pega um machado que encontrou no chão para se defender. Você deseja atacar Mia ou não?"
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+  
   <agent 
     id="hall_alt_button_2"
     x="center"
