@@ -1,4 +1,4 @@
-<page id="baker_hall_alt" bg_image="baker_hall_alt.png">
+<page id="baker_hall" bg_image="baker_hall_alt.png">
 
 <fab-if when="narrative_hall_alt = 0">
   <agent 
