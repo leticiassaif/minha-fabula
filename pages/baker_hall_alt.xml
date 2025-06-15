@@ -73,16 +73,32 @@
     />
   
   <agent 
-    id="hall_alt_button_2"
-    x="center"
-    y="400"
-    text="clique para prosseguir"
+    id="hall_alt_choice_1"
+    x="170"
+    y="425"
+    text="Atacar"
+    font-size="20"
     color="white"
-    width="280"
+    width="180"
     radius="16"
     border="dotted"
     border_color="black"
     on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"         
+    animation="hover-bg-color-[#8da56a]"
+    />
+
+  <agent 
+    id="hall_alt_choice_2"
+    x="450"
+    y="425"
+    text="Não atacar"
+    font-size="20"
+    color="white"
+    width="180"
+    radius="16"
+    border="dotted"
+    border_color="black"
+    on_click="goToPage('ending_good_husband')"         
     animation="hover-bg-color-[#8da56a]"
     />
  </fab-if> 
