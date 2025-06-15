@@ -7,15 +7,11 @@
   <property name="infeccao" default="0" />
   <property name="visitante" default="Ethan" />
 
-  <property name="posX" default="10" />
-  <property name="posY" default="305" />
-  <property name="deltaX" default="0" />
-  <property name="deltaY" default="0" />
-
   <property name="narrative_start" default="0" />
   <property name="narrative_passage" default="0" />
   <property name="narrative_hall_alt" default="0" />
   <property name="cassete_click" default="0" />
+  <property name="mia_fight" default="0" />
 
   <start />
   <choice1 />
