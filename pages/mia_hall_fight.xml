@@ -71,7 +71,7 @@
   <agent 
     id="mia_fight_message_3"
     x="50"
-    y="50"
+    y="150"
     text="Assim que você tira a chave de fenda da sua mão, Mia te ataca com a motoserra, amputando a sua mão esquerda."
     color="white"
     font-size="20"
@@ -81,26 +81,12 @@
   
   <agent 
     id="ethan_hand"
-    x="310"
-    y="200"
-    image="boltcutters.png"
-    width="150"
+    x="180"
+    y="180"
+    image="hand_nobg.png"
+    width="450"
     animation="hover-grow"
-    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"
-    />
-
-  <agent 
-    id="choice2_ending"
-    x="440"
-    y="320"
-    font-size="20"
-    border="dotted"
-    border_color="black"
-    text="Atacar Mia"
-    radius="16"
-    width="280"
-    animation="hover-bg-color-[#8da56a]"
-    on_click="goToPage('ending_chainsaw'); set(vida, 0); set(sanidade, 10)"
+    on_click="set(mia_fight, $mia_fight + 1)"
     />
 </fab-if>
 </page>
