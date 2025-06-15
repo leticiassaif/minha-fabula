@@ -1,3 +1,12 @@
 <page id="mia_hall_fight" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página baker_hall_fight" color="white" font-size="24" />
+  <agent 
+    id="hall_alt_message_1"
+    x="50"
+    y="150"
+    text="Você coloca o fusível no lugar adequado e decide subir as escadas para ir para o sotão. Porém Mia te intercepta falando que está tudo bem e que ela sabia que você não queria machucar ela."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
 </page>
