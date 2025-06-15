@@ -86,7 +86,19 @@
     image="hand_nobg.png"
     width="450"
     animation="hover-grow"
-    on_click="set(mia_fight, $mia_fight + 1)"
+    on_click="goToPage('baker_attic')"
+    />
+
+  <agent 
+    id="mia_fight_message_4"
+    x="center"
+    y="400"
+    border="dotted"
+    border_color="black"
+    text="clique na sua mão para prosseguir"
+    radius="16"
+    width="460"
+    animation="fade-in"
     />
 </fab-if>
 </page>
