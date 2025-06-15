@@ -112,13 +112,12 @@
     />
  </fab-if> 
 
-
 <fab-if when="narrative_hall_alt = 2">
   <agent 
     id="picking_up_phone"
     x="center"
     y="center"
-    image="mia_fight_1.png"
+    image="baker_phone.png"
     width="1100"
     animation="fade-in"
     />
@@ -158,6 +157,138 @@
 
   <agent 
     id="hall_alt_button_2"
+    x="center"
+    y="480"
+    text="clique para prosseguir"
+    color="white"
+    width="280"
+    radius="16"
+    border="dotted"
+    border_color="black"
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"        
+    animation="hover-bg-color-[#8da56a]"
+    />
+ </fab-if>
+
+<fab-if when="narrative_hall_alt = 3">
+  <agent 
+    id="background_fuse_1"
+    x="center"
+    y="center"
+    image="baker_phone.png"
+    width="1100"
+    animation="fade-in"
+    />
+
+  <agent 
+    id="hall_boltcutters_1"
+    x="350"
+    y="200"
+    image="boltcutters.png"
+    width="150"
+    animation="hover-grow"
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"
+    />
+
+  <agent 
+    id="boltcutters_message"
+    x="center"
+    y="135"
+    text="Clique no corta-vergalhão para usar ele."
+    bg_color="black"
+    color="white"
+    font-size="20"
+    width="420"
+    radius="16"
+    animation="fade-in"
+    />
+ </fab-if>
+ 
+<fab-if when="narrative_hall_alt = 4">
+    <agent 
+    id="background_fuse_2"
+    x="center"
+    y="center"
+    image="baker_phone.png"
+    width="1100"
+    animation="fade-in"
+    />
+
+  <agent 
+    id="hall_fuse_1"
+    x="350"
+    y="200"
+    image="fuse.png"
+    width="150"
+    animation="hover-grow"
+    on_click="set(narrative_hall_alt, $narrative_hall_alt + 1)"
+    />
+
+  <agent 
+    id="fuse_message_1"
+    x="center"
+    y="135"
+    text="Clique no corta-vergalhão para usar ele."
+    bg_color="black"
+    color="white"
+    font-size="20"
+    width="420"
+    radius="16"
+    animation="fade-in"
+    />
+  
+  <agent 
+    id="fuse_message_2"
+    x="center"
+    y="350"
+    text="clique para prosseguir"
+    bg_color="black"
+    color="white"
+    font-size="20"
+    width="280"
+    radius="16"
+    on_click="set(narrative_passage, $narrative_passage + 1); set(coragem, $coragem + 10)"        
+    border="dotted"
+    animation="hover-bg-color-[#8da56a]"
+    />
+  </fab-if>
+
+<fab-if when="narrative_hall_alt = 5">
+  <agent 
+    id="hall_alt_message_9"
+    x="50"
+    y="50"
+    text="Você ataca Mia no pescoço com o machado. Ela cai no chão, desacordada, sangrando muito. Você entra em pânico. O telefone do corredor começa a tocar e você o atende."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+
+  <agent 
+    id="hall_alt_message_10"
+    x="50"
+    y="150"
+    text="'Você realmente não deveria ter vindo aqui.' - a pessoa da outra linha fala. Quando você pergunta quem é e o que está acontecendo, ela diz que seu nome é Zoe e que há uma saída no sotão. Para acessá-lo, você precisa do interruptor da sala de estar esteja funcionando, porém Zoe diz que ele precisa de um fusível e que esse fusível está trancado por uma corrente na cozinha."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+
+  <agent 
+    id="hall_alt_message_11"
+    x="50"
+    y="340"
+    text="Ao procurar por Mia, você percebe que ela não está mais desacordada... Pelo menos ela está viva. Você decide pegar o machado novamente. A porta anteriormente trancada agora está aberta e ela leva ao corredor da sala de estar."
+    color="white"
+    font-size="20"
+    width="700"
+    animation="fade-in-down"
+    />
+
+  <agent 
+    id="hall_alt_button_3"
     x="center"
     y="480"
     text="clique para prosseguir"
