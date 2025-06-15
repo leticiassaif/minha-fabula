@@ -1,7 +1,7 @@
 <page id="ending_good_husband" bg_color="black">
   <agent
-    id="tipo_de_final_ouvinte"
-    text="Final Medroso"
+    id="tipo_de_final_marido"
+    text="Final Bom Marido"
     x="223"
     y="40"
     color="white"
@@ -11,7 +11,7 @@
 
   <agent
     id="descricao_do_final_ouvinte"
-    text="Após ver o triste final de Andre, você fica assustado e hesita, e decide sair daquela casa macabra imediatamente. Você nunca saberá o que aconteceu com Mia, sua esposa. E agora você recebe constantemente emails estranhos..."
+    text="Você decide não atacar sua esposa, entretanto ela não teve essa piedade. $visitante morre, sem saber o que estava acontecendo, Mia continua naquela casa abandonada, agora com a culpa de ter matado $visitante. Será se a verdade vai ser descoberta?"
     x="center"
     y="130"
     color="white"
