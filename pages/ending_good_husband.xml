@@ -1,3 +1,44 @@
 <page id="ending_good_husband" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página ending_good_husband" color="white" font-size="24" />
+  <agent
+    id="tipo_de_final_ouvinte"
+    text="Final Medroso"
+    x="223"
+    y="40"
+    color="white"
+    font-size="50"
+    animation="fade-in-down"
+  />
+
+  <agent
+    id="descricao_do_final_ouvinte"
+    text="Após ver o triste final de Andre, você fica assustado e hesita, e decide sair daquela casa macabra imediatamente. Você nunca saberá o que aconteceu com Mia, sua esposa. E agora você recebe constantemente emails estranhos..."
+    x="center"
+    y="130"
+    color="white"
+    width="500"
+    font-size="20"
+    animation="typewriter"
+  />
+
+  <agent
+    id="resultado_texto1"
+    x="310"
+    y="450"
+    text="Resultados"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
+
+
+  <agent
+    id="resultado_vida_coragem1"
+    x="48"
+    y="500"
+    text="❤️ Vida: $vida | 🛡️ Coragem: $coragem | 🧠 Sanidade: $sanidade"
+    width="700"
+    color="white"
+    font-size="24"
+    animation="fade-in-down"
+  />
 </page>
